@@ -135,7 +135,7 @@ const Home = ({ onOpenTerminal }) => {
 
           <div className="sketch-cta-group">
             <a href="#projects" className="btn-pill-action btn-work">View work</a>
-            <a href="/YOUNUS RESUME.pdf" className="btn-pill-action btn-resume">Download Resume</a>
+            <a href="/Mohammed Younish - RESUME.pdf" className="btn-pill-action btn-resume">Download Resume</a>
           </div>
 
           <div className="sketch-social-group">
