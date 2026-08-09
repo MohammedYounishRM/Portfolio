@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Terminal } from 'lucide-react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si';
+import { SiHackerrank } from 'react-icons/si';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import DotPattern from './DotField';
@@ -147,9 +147,9 @@ const Home = ({ onOpenTerminal }) => {
               <FaGithub size={17} />
               <span>Github</span>
             </a>
-            <a href="https://leetcode.com/u/Md_Younus1911" target="_blank" rel="noreferrer" className="social-pill">
-              <SiLeetcode size={17} />
-              <span>Leetcode</span>
+            <a href="https://www.hackerrank.com/profile/mohammedyounish1" target="_blank" rel="noreferrer" className="social-pill">
+              <SiHackerrank size={17} />
+              <span>HackerRank</span>
             </a>
           </div>
         </div>
