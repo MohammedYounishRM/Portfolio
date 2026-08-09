@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Send, Check, Terminal, ExternalLink } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si';
+import { SiHackerrank } from 'react-icons/si';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState(null);
@@ -125,15 +125,15 @@ const Contact = () => {
                 </a>
 
                 <a 
-                  href="https://leetcode.com/u/Md_Younus1911"
+                  href="https://www.hackerrank.com/profile/mohammedyounish1"
                   target="_blank" 
                   rel="noreferrer" 
                   className="social-card"  >
                   <div className="social-card-left">
-                    <SiLeetcode size={20} />
+                    <SiHackerrank size={20} />
                     <div>
-                      <span className="social-platform">Leetcode</span>
-                      <span className="social-handle">leetcode.com/u/Md_Younus1911</span>
+                      <span className="social-platform">HackerRank</span>
+                      <span className="social-handle">hackerrank/profile/mohammedyounish1</span>
                     </div>
                   </div>
                   <ExternalLink size={16} className="social-arrow" />
